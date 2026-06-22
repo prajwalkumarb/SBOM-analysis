@@ -1,0 +1,2511 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:demo-20260622062556",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-06-22T06:25:56.040377+00:00",
+    "component": {
+      "type": "device",
+      "name": "PrajwalKumar",
+      "version": "10.0.26200"
+    }
+  },
+  "components": [
+    {
+      "type": "application",
+      "name": "7-Zip 26.01 (x64)",
+      "version": "26.01",
+      "publisher": "Igor Pavlov",
+      "purl": "pkg:generic/7-zip-26.01-(x64)@26.01",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Application Verifier x64 External Package",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft",
+      "purl": "pkg:generic/application-verifier-x64-external-package@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Battery Monitor version 1.0",
+      "version": "1.0",
+      "publisher": "Prajwal Kumar",
+      "purl": "pkg:generic/battery-monitor-version-1.0@1.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Brave",
+      "version": "149.1.91.175",
+      "publisher": "Brave Software Inc",
+      "purl": "pkg:generic/brave@149.1.91.175",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "ClickOnce Bootstrapper Package for Microsoft .NET Framework",
+      "version": "4.8.04739",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/clickonce-bootstrapper-package-for-microsoft-.net-framework@4.8.04739",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "ConEmu 230724.x64",
+      "version": "11.230.7240",
+      "publisher": "ConEmu-Maximus5",
+      "purl": "pkg:generic/conemu-230724.x64@11.230.7240",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Copilot",
+      "version": "149.0.4022.66",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/copilot@149.0.4022.66",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "DiagnosticsHub_CollectionService",
+      "version": "16.11.36015",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/diagnosticshub_collectionservice@16.11.36015",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Docker Desktop",
+      "version": "4.77.0",
+      "publisher": "Docker Inc.",
+      "purl": "pkg:generic/docker-desktop@4.77.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "DrSprinto 4.0.8",
+      "version": "4.0.8",
+      "publisher": "Sprinto",
+      "purl": "pkg:generic/drsprinto-4.0.8@4.0.8",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Erlang OTP 28.4.2 (16.3.1)",
+      "version": "28.4.2",
+      "publisher": "Ericsson AB",
+      "purl": "pkg:generic/erlang-otp-28.4.2-(16.3.1)@28.4.2",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Git",
+      "version": "2.53.0.2",
+      "publisher": "The Git Development Community",
+      "purl": "pkg:generic/git@2.53.0.2",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Google Chrome",
+      "version": "149.0.7827.116",
+      "publisher": "Google LLC",
+      "purl": "pkg:generic/google-chrome@149.0.7827.116",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Grype",
+      "version": "0.114.0",
+      "publisher": "Anchore Inc",
+      "purl": "pkg:generic/grype@0.114.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "icecap_collection_neutral",
+      "version": "16.11.34930",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/icecap_collection_neutral@16.11.34930",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "icecap_collection_x64",
+      "version": "16.11.34930",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/icecap_collection_x64@16.11.34930",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "icecap_collectionresources",
+      "version": "16.11.34827",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/icecap_collectionresources@16.11.34827",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "icecap_collectionresourcesx64",
+      "version": "16.11.34827",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/icecap_collectionresourcesx64@16.11.34827",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "InfraonAgent",
+      "version": "1.0.0",
+      "publisher": "Infraon Corp",
+      "purl": "pkg:generic/infraonagent@1.0.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Inno Setup version 6.7.1",
+      "version": "6.7.1",
+      "publisher": "jrsoftware.org",
+      "purl": "pkg:generic/inno-setup-version-6.7.1@6.7.1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "IP Messenger for Win",
+      "version": "5.8.1",
+      "publisher": "H.Shirouzu & FastCopy Lab, LLC.",
+      "purl": "pkg:generic/ip-messenger-for-win@5.8.1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Kits Configuration Installer",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft",
+      "purl": "pkg:generic/kits-configuration-installer@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Lenovo Service Bridge",
+      "version": "5.0.2.21",
+      "publisher": "Lenovo",
+      "purl": "pkg:generic/lenovo-service-bridge@5.0.2.21",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Meld",
+      "version": "3.22.2",
+      "publisher": "Kai Willadsen",
+      "purl": "pkg:generic/meld@3.22.2",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft .NET Framework 4 Multi-Targeting Pack",
+      "version": "4.0.30319",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-.net-framework-4-multi-targeting-pack@4.0.30319",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft .NET Framework 4.8.1 SDK",
+      "version": "4.8.09032",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-.net-framework-4.8.1-sdk@4.8.09032",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft .NET Framework 4.8.1 Targeting Pack",
+      "version": "4.8.09032",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-.net-framework-4.8.1-targeting-pack@4.8.09032",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft 365 Apps for enterprise - en-us",
+      "version": "16.0.20026.20166",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-365-apps-for-enterprise---en-us@16.0.20026.20166",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Edge",
+      "version": "149.0.4022.80",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-edge@149.0.4022.80",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Edge WebView2 Runtime",
+      "version": "149.0.4022.80",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-edge-webview2-runtime@149.0.4022.80",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft OneDrive",
+      "version": "26.106.0603.0003",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-onedrive@26.106.0603.0003",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Project Professional 2021 - en-us",
+      "version": "16.0.20026.20166",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-project-professional-2021---en-us@16.0.20026.20166",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft System CLR Types for SQL Server 2019 CTP2.2",
+      "version": "15.0.1200.24",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-system-clr-types-for-sql-server-2019-ctp2.2@15.0.1200.24",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Teams Meeting Add-in for Microsoft Office",
+      "version": "1.26.11802",
+      "publisher": "Microsoft",
+      "purl": "pkg:generic/microsoft-teams-meeting-add-in-for-microsoft-office@1.26.11802",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Update Health Tools",
+      "version": "5.72.0.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-update-health-tools@5.72.0.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-2022-x64-additional-runtime---14.50.35719@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ 2022 X64 Debug Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-2022-x64-debug-runtime---14.50.35719@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-2022-x64-minimum-runtime---14.50.35719@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-2022-x86-additional-runtime---14.50.35719@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ 2022 X86 Debug Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-2022-x86-debug-runtime---14.50.35719@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-2022-x86-minimum-runtime---14.50.35719@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ v14 Redistributable (x64) - 14.50.35719",
+      "version": "14.50.35719.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-v14-redistributable-(x64)---14.50.35719@14.50.35719.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual C++ v14 Redistributable (x86) - 14.50.35719",
+      "version": "14.50.35719.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-c++-v14-redistributable-(x86)---14.50.35719@14.50.35719.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual Studio Code (User)",
+      "version": "1.125.1",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-studio-code-(user)@1.125.1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual Studio Installer",
+      "version": "4.5.35.35368",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-studio-installer@4.5.35.35368",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual Studio Setup Configuration",
+      "version": "4.5.6.38525",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-studio-setup-configuration@4.5.6.38525",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Microsoft Visual Studio Setup WMI Provider",
+      "version": "4.5.6.38525",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/microsoft-visual-studio-setup-wmi-provider@4.5.6.38525",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "MongoDB 8.2.6 2008R2Plus SSL (64 bit)",
+      "version": "8.2.6",
+      "publisher": "MongoDB Inc.",
+      "purl": "pkg:generic/mongodb-8.2.6-2008r2plus-ssl-(64-bit)@8.2.6",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "MongoDB Compass",
+      "version": "1.49.9",
+      "publisher": "MongoDB Inc",
+      "purl": "pkg:generic/mongodb-compass@1.49.9",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "MongoDB Compass Readonly",
+      "version": "1.49.4",
+      "publisher": "MongoDB Inc",
+      "purl": "pkg:generic/mongodb-compass-readonly@1.49.4",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "MSI Development Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/msi-development-tools@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Node.js",
+      "version": "24.14.1",
+      "publisher": "Node.js Foundation",
+      "purl": "pkg:generic/node.js@24.14.1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Notepad++ (64-bit x64)",
+      "version": "8.9.3",
+      "publisher": "Notepad++ Team",
+      "purl": "pkg:generic/notepad++-(64-bit-x64)@8.9.3",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Office 16 Click-to-Run Extensibility Component",
+      "version": "16.0.20026.20076",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/office-16-click-to-run-extensibility-component@16.0.20026.20076",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Orca",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/orca@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "PostgreSQL 18 ",
+      "version": "18.4-2",
+      "publisher": "PostgreSQL Global Development Group",
+      "purl": "pkg:generic/postgresql-18-@18.4-2",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Core Interpreter (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-core-interpreter-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Development Libraries (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-development-libraries-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Documentation (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-documentation-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Executables (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-executables-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 pip Bootstrap (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-pip-bootstrap-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Standard Library (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-standard-library-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Tcl/Tk Support (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-tcl/tk-support-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Test Suite (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-test-suite-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.11.0 Utility Scripts (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.11.0-utility-scripts-(64-bit)@3.11.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Core Interpreter (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-core-interpreter-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Development Libraries (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-development-libraries-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Documentation (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-documentation-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Executables (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-executables-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 pip Bootstrap (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-pip-bootstrap-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Standard Library (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-standard-library-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Tcl/Tk Support (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-tcl/tk-support-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.12.0 Test Suite (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.12.0-test-suite-(64-bit)@3.12.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Core Interpreter (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-core-interpreter-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Development Libraries (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-development-libraries-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Documentation (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-documentation-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Executables (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-executables-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 pip Bootstrap (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-pip-bootstrap-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Standard Library (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-standard-library-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Tcl/Tk Support (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-tcl/tk-support-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python 3.13.0 Test Suite (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-3.13.0-test-suite-(64-bit)@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Python Launcher",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation",
+      "purl": "pkg:generic/python-launcher@3.13.150.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "RabbitMQ Server 4.2.5",
+      "version": "4.2.5",
+      "publisher": "VMware, Inc.",
+      "purl": "pkg:generic/rabbitmq-server-4.2.5@4.2.5",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Redis on Windows",
+      "version": "5.0.14.1",
+      "publisher": "Poradowski.com",
+      "purl": "pkg:generic/redis-on-windows@5.0.14.1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Revo Uninstaller 2.6.8",
+      "version": "2.6.8",
+      "publisher": "VS Revo Group, Ltd.",
+      "purl": "pkg:generic/revo-uninstaller-2.6.8@2.6.8",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "SafeNet Authentication Client 10.9",
+      "version": "10.9.3283.0",
+      "publisher": "Thales",
+      "purl": "pkg:generic/safenet-authentication-client-10.9@10.9.3283.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos AMSI Protection",
+      "version": "2026.1.0.517",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-amsi-protection@2026.1.0.517",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos AutoUpdate",
+      "version": "2026.1.0.1093",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-autoupdate@2026.1.0.1093",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Connect",
+      "version": "2.2.90.1104",
+      "publisher": "Sophos Ltd",
+      "purl": "pkg:generic/sophos-connect@2.2.90.1104",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Diagnostic Utility",
+      "version": "2026.1.0.1091",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-diagnostic-utility@2026.1.0.1091",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Endpoint Agent",
+      "version": "2026.1.0.1681.0",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-endpoint-agent@2026.1.0.1681.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Endpoint Defense",
+      "version": "2026.1.0.3422",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-endpoint-defense@2026.1.0.3422",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Endpoint Firewall",
+      "version": "2026.1.0.477",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-endpoint-firewall@2026.1.0.477",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Endpoint Self Help",
+      "version": "2026.1.0.876",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-endpoint-self-help@2026.1.0.876",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Exploit Prevention",
+      "version": "2026.1.0.1288",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-exploit-prevention@2026.1.0.1288",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos File Scanner",
+      "version": "2026.1.0.776",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-file-scanner@2026.1.0.776",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Health",
+      "version": "2026.1.0.956",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-health@2026.1.0.956",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Management Communications System",
+      "version": "2026.1.0.927",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-management-communications-system@2026.1.0.927",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos ML Engine",
+      "version": "2026.1.0.355",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-ml-engine@2026.1.0.355",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Network Threat Protection",
+      "version": "2026.1.0.1477",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-network-threat-protection@2026.1.0.1477",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Sophos Standalone Engine",
+      "version": "3.97.0.328",
+      "publisher": "Sophos Limited",
+      "purl": "pkg:generic/sophos-standalone-engine@3.97.0.328",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "TortoiseGit 2.18.0.1 (64 bit)",
+      "version": "2.18.0.1",
+      "publisher": "TortoiseGit",
+      "purl": "pkg:generic/tortoisegit-2.18.0.1-(64-bit)@2.18.0.1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "TypeScript SDK",
+      "version": "4.3.5.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/typescript-sdk@4.3.5.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "UltraViewer version 6.6.124",
+      "version": "6.6.124",
+      "publisher": "DucFabulous",
+      "purl": "pkg:generic/ultraviewer-version-6.6.124@6.6.124",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Universal CRT Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/universal-crt-extension-sdk@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Universal CRT Headers Libraries and Sources",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/universal-crt-headers-libraries-and-sources@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Universal CRT Redistributable",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/universal-crt-redistributable@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Universal CRT Tools x64",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/universal-crt-tools-x64@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Universal CRT Tools x86",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/universal-crt-tools-x86@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Universal General MIDI DLS Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/universal-general-midi-dls-extension-sdk@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Update for  (KB2504637)",
+      "version": "1",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/update-for--(kb2504637)@1",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vcpp_crt.redist.clickonce",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vcpp_crt.redist.clickonce@14.50.35719",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Visual Studio Professional 2019",
+      "version": "16.11.55",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/visual-studio-professional-2019@16.11.55",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "VLC media player",
+      "version": "3.0.23",
+      "publisher": "VideoLAN",
+      "purl": "pkg:generic/vlc-media-player@3.0.23",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "VS Immersive Activate Helper",
+      "version": "16.0.102.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs-immersive-activate-helper@16.0.102.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "VS JIT Debugger",
+      "version": "16.0.102.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs-jit-debugger@16.0.102.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "VS Script Debugging Common",
+      "version": "16.0.102.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs-script-debugging-common@16.0.102.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_clickoncebootstrappermsi",
+      "version": "16.10.31206",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_clickoncebootstrappermsi@16.10.31206",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_clickoncebootstrappermsires",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_clickoncebootstrappermsires@16.0.28329",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_clickoncesigntoolmsi",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_clickoncesigntoolmsi@16.0.28329",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_communitymsi",
+      "version": "16.11.34930",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_communitymsi@16.11.34930",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_communitymsires",
+      "version": "16.10.31213",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_communitymsires@16.10.31213",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_devenvmsi",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_devenvmsi@16.0.28329",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_filehandler_amd64",
+      "version": "16.11.31503",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_filehandler_amd64@16.11.31503",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_filehandler_x86",
+      "version": "16.11.31503",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_filehandler_x86@16.11.31503",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_FileTracker_Singleton",
+      "version": "18.5.11709",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_filetracker_singleton@18.5.11709",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_Graphics_Singletonx64",
+      "version": "16.10.31213",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_graphics_singletonx64@16.10.31213",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_Graphics_Singletonx86",
+      "version": "16.10.31213",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_graphics_singletonx86@16.10.31213",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_minshellinteropmsi",
+      "version": "16.10.31306",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_minshellinteropmsi@16.10.31306",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_minshellmsi",
+      "version": "16.11.34902",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_minshellmsi@16.11.34902",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_minshellmsires",
+      "version": "16.10.31303",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_minshellmsires@16.10.31303",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_SQLClickOnceBootstrappermsi",
+      "version": "16.10.31205",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_sqlclickoncebootstrappermsi@16.10.31205",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "vs_tipsmsi",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/vs_tipsmsi@16.0.28329",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinAppDeploy",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winappdeploy@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows App Certification Kit Native Components",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-app-certification-kit-native-components@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows App Certification Kit SupportedApiList x86",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-app-certification-kit-supportedapilist-x86@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows App Certification Kit x64",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-app-certification-kit-x64@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Desktop Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-desktop-extension-sdk@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Desktop Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-desktop-extension-sdk-contracts@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows IoT Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-iot-extension-sdk@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows IoT Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-iot-extension-sdk-contracts@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Mobile Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-mobile-extension-sdk@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Mobile Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-mobile-extension-sdk-contracts@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK AddOn",
+      "version": "10.1.0.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-addon@10.1.0.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK ARM Desktop Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-arm-desktop-tools@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Headers arm",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-headers-arm@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Headers arm64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-headers-arm64@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Headers x64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-headers-x64@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Headers x86",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-headers-x86@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Libs arm",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-libs-arm@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Libs arm64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-libs-arm64@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Libs x64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-libs-x64@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Libs x86",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-libs-x86@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Tools arm64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-tools-arm64@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Tools x64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-tools-x64@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Desktop Tools x86",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-desktop-tools-x86@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK DirectX x64 Remote",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-directx-x64-remote@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK DirectX x86 Remote",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-directx-x86-remote@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK EULA",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporations",
+      "purl": "pkg:generic/windows-sdk-eula@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Facade Windows WinMD Versioned",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-facade-windows-winmd-versioned@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps-contracts@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps DirectX x86 Remote",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps-directx-x86-remote@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps Headers",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps-headers@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps Libs",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps-libs@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps Metadata",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps-metadata@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Apps Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-apps-tools@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK for Windows Store Managed Apps Libs",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-for-windows-store-managed-apps-libs@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Modern Non-Versioned Developer Tools",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-modern-non-versioned-developer-tools@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Modern Versioned Developer Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-modern-versioned-developer-tools@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Redistributables",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-redistributables@10.1.28000.1839",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows SDK Signing Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-sdk-signing-tools@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Software Development Kit - Windows 10.0.19041.5609",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-software-development-kit---windows-10.0.19041.5609@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Subsystem for Linux",
+      "version": "2.7.3.0",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-subsystem-for-linux@2.7.3.0",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Team Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-team-extension-sdk@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "Windows Team Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/windows-team-extension-sdk-contracts@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense Desktop - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-desktop---en-us@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense Desktop - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-desktop---other-languages@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense IoT - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-iot---en-us@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense IoT - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-iot---other-languages@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense Mobile - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-mobile---en-us@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense PPI - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-ppi---en-us@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense PPI - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-ppi---other-languages@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense UAP - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-uap---en-us@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinRT Intellisense UAP - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation",
+      "purl": "pkg:generic/winrt-intellisense-uap---other-languages@10.1.19041.5609",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "WinSCP 6.5.6",
+      "version": "6.5.6",
+      "publisher": "Martin Prikryl",
+      "purl": "pkg:generic/winscp-6.5.6@6.5.6",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "wkhtmltox 0.12.6-1",
+      "version": "unknown",
+      "publisher": "",
+      "purl": "pkg:generic/wkhtmltox-0.12.6-1@unknown",
+      "properties": [
+        {
+          "name": "source",
+          "value": "windows-registry"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "24.2",
+      "purl": "pkg:pypi/pip@24.2",
+      "properties": [
+        {
+          "name": "source",
+          "value": "pip"
+        }
+      ]
+    }
+  ]
+}

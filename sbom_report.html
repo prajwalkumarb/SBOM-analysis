@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Software Bill of Materials — Security Report</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --bg:        #0d1117;
+    --surface:   #161b22;
+    --border:    #21262d;
+    --text:      #e6edf3;
+    --muted:     #7d8590;
+    --accent:    #2f81f7;
+    --accent-dim:#1f4b8e;
+    --critical:  #f85149;
+    --high:      #e3b341;
+    --medium:    #d29922;
+    --low:       #3fb950;
+    --safe:      #238636;
+    --safe-bg:   #0d2818;
+    --pill-bg:   #1c2128;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-left { display: flex; align-items: center; gap: 14px; }
+  .logo {
+    width: 36px; height: 36px;
+    background: var(--accent);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
+  .header h1 { font-size: 16px; font-weight: 600; }
+  .header-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .badge-secure {
+    background: var(--safe-bg);
+    border: 1px solid var(--safe);
+    color: var(--low);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .badge-risk {
+    background: #2d1b1b;
+    border: 1px solid var(--critical);
+    color: var(--critical);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  /* ── Layout ── */
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 40px; }
+
+  /* ── Upload zone ── */
+  .upload-zone {
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 48px;
+    text-align: center;
+    margin-bottom: 32px;
+    transition: border-color 0.2s;
+  }
+  .upload-zone:hover { border-color: var(--accent); }
+  .upload-zone h2 { font-size: 18px; margin-bottom: 8px; }
+  .upload-zone p { color: var(--muted); margin-bottom: 24px; font-size: 13px; }
+  .upload-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .upload-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .upload-btn:hover { border-color: var(--accent); background: #1a2030; }
+  .upload-btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .upload-btn.primary:hover { background: #388bfd; }
+  .file-label { font-size: 12px; color: var(--muted); display: block; margin-top: 6px; }
+
+  /* ── Dashboard ── */
+  #dashboard { display: none; }
+
+  .section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 14px;
+  }
+
+  /* ── Stat cards ── */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .stat-val { font-size: 32px; font-weight: 700; font-family: 'JetBrains Mono', monospace; line-height: 1; }
+  .stat-label { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .stat.critical .stat-val { color: var(--critical); }
+  .stat.high     .stat-val { color: var(--high); }
+  .stat.medium   .stat-val { color: var(--medium); }
+  .stat.safe     .stat-val { color: var(--low); }
+  .stat.info     .stat-val { color: var(--accent); }
+
+  /* ── System info ── */
+  .sysinfo {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  .sysinfo-item label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; display: block; margin-bottom: 3px; }
+  .sysinfo-item span  { font-size: 13px; font-family: 'JetBrains Mono', monospace; color: var(--text); }
+
+  /* ── CVE table ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 28px;
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-header h3 { font-size: 14px; font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; }
+  th {
+    text-align: left;
+    padding: 10px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: #0d1117;
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    vertical-align: middle;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(47,129,247,0.04); }
+
+  .mono { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+
+  .sev {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .sev-critical { background: rgba(248,81,73,0.15); color: var(--critical); border: 1px solid rgba(248,81,73,0.3); }
+  .sev-high     { background: rgba(227,179,65,0.15); color: var(--high);     border: 1px solid rgba(227,179,65,0.3); }
+  .sev-medium   { background: rgba(210,153,34,0.12); color: var(--medium);   border: 1px solid rgba(210,153,34,0.3); }
+  .sev-low      { background: rgba(63,185,80,0.12);  color: var(--low);      border: 1px solid rgba(63,185,80,0.3); }
+
+  .fix-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .fix-available { background: var(--safe-bg); color: var(--low); border: 1px solid rgba(63,185,80,0.3); }
+  .fix-none      { background: #2d1b1b; color: var(--critical); }
+
+  .source-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    background: var(--pill-bg);
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .source-pypi { color: var(--accent); border-color: var(--accent-dim); background: rgba(47,129,247,0.08); }
+
+  /* ── Components table ── */
+  .search-row {
+    display: flex; gap: 10px; align-items: center;
+  }
+  .search-box {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 7px 12px;
+    color: var(--text);
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    width: 260px;
+    outline: none;
+  }
+  .search-box:focus { border-color: var(--accent); }
+  .filter-btn {
+    background: var(--pill-bg);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.15s;
+  }
+  .filter-btn.active, .filter-btn:hover { border-color: var(--accent); color: var(--accent); background: rgba(47,129,247,0.08); }
+
+  .count-chip {
+    background: var(--pill-bg);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+
+  .no-vuln { text-align: center; padding: 40px; color: var(--muted); }
+  .no-vuln span { font-size: 28px; display: block; margin-bottom: 8px; }
+
+  .footer {
+    text-align: center;
+    padding: 32px;
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+  }
+
+  /* ── Progress bar ── */
+  .risk-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; gap: 2px; margin-top: 8px; }
+  .risk-seg { height: 100%; border-radius: 3px; transition: width 0.4s; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">🛡</div>
+    <div>
+      <h1>SBOM Security Report</h1>
+      <div class="header-sub">Software Bill of Materials — Vulnerability Assessment</div>
+    </div>
+  </div>
+  <div id="header-badge"></div>
+</div>
+
+<div class="container">
+
+  <!-- Upload Zone -->
+  <div class="upload-zone" id="upload-zone">
+    <h2>Load Your Scan Results</h2>
+    <p>Upload the JSON files generated by the Inventory Agent script to view your security report.</p>
+    <div class="upload-row">
+      <div>
+        <label class="upload-btn" for="f-inventory">📋 inventory_output.json</label>
+        <input type="file" id="f-inventory" accept=".json" style="display:none"/>
+        <span class="file-label" id="lbl-inventory">Not loaded</span>
+      </div>
+      <div>
+        <label class="upload-btn" for="f-sbom">📦 sbom_output.json</label>
+        <input type="file" id="f-sbom" accept=".json" style="display:none"/>
+        <span class="file-label" id="lbl-sbom">Not loaded</span>
+      </div>
+      <div>
+        <label class="upload-btn" for="f-grype">🔍 grype_report.json</label>
+        <input type="file" id="f-grype" accept=".json" style="display:none"/>
+        <span class="file-label" id="lbl-grype">Not loaded</span>
+      </div>
+    </div>
+    <br/>
+    <button class="upload-btn primary" onclick="loadDemo()">▶ Load Demo Data</button>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="dashboard">
+
+    <!-- System Info -->
+    <div class="section-title">Device Information</div>
+    <div class="sysinfo" id="sysinfo"></div>
+
+    <!-- Stats -->
+    <div class="section-title">Vulnerability Summary</div>
+    <div class="stats" id="stats"></div>
+
+    <!-- CVE Findings -->
+    <div class="section-title">Vulnerability Findings</div>
+    <div class="card">
+      <div class="card-header">
+        <h3>CVE Matches</h3>
+        <span class="count-chip" id="cve-count">0 findings</span>
+      </div>
+      <div id="cve-table-wrap"></div>
+    </div>
+
+    <!-- Components -->
+    <div class="section-title">Software Components (SBOM)</div>
+    <div class="card">
+      <div class="card-header">
+        <h3>All Components</h3>
+        <div class="search-row">
+          <input class="search-box" id="comp-search" placeholder="Search components..." oninput="filterComponents()"/>
+          <button class="filter-btn active" id="f-all"  onclick="setFilter('all')">All</button>
+          <button class="filter-btn"        id="f-pypi" onclick="setFilter('pypi')">pip only</button>
+          <button class="filter-btn"        id="f-win"  onclick="setFilter('win')">Windows apps</button>
+        </div>
+      </div>
+      <div id="comp-table-wrap"></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer" id="footer" style="display:none">
+  Generated by Inventory Agent &nbsp;·&nbsp; CycloneDX 1.4 &nbsp;·&nbsp; Scanned with Grype
+</div>
+
+<script>
+let allComponents = [];
+let currentFilter = 'all';
+let inventory = null, sbom = null, grype = null;
+
+// ── File loaders ──
+function readJSON(file, cb) {
+  const r = new FileReader();
+  r.onload = e => cb(JSON.parse(e.target.result));
+  r.readAsText(file);
+}
+
+document.getElementById('f-inventory').onchange = e => {
+  readJSON(e.target.files[0], d => { inventory = d; document.getElementById('lbl-inventory').textContent = e.target.files[0].name; tryRender(); });
+};
+document.getElementById('f-sbom').onchange = e => {
+  readJSON(e.target.files[0], d => { sbom = d; document.getElementById('lbl-sbom').textContent = e.target.files[0].name; tryRender(); });
+};
+document.getElementById('f-grype').onchange = e => {
+  readJSON(e.target.files[0], d => { grype = d; document.getElementById('lbl-grype').textContent = e.target.files[0].name; tryRender(); });
+};
+
+function tryRender() {
+  if (inventory && sbom && grype) render();
+}
+
+// ── Demo data ──
+function loadDemo() {
+  inventory = {
+    collected_at: new Date().toISOString(),
+    system: { hostname: "PrajwalKumar", os: "Windows", os_version: "10.0.26200", architecture: "AMD64", python: "3.13.0" },
+    windows_apps: [
+      {name:"Google Chrome", version:"126.0.6478.57", publisher:"Google LLC"},
+      {name:"7-Zip 22.01", version:"22.01", publisher:"Igor Pavlov"},
+      {name:"Microsoft Visual C++ 2019", version:"14.36.32532", publisher:"Microsoft Corporation"},
+      {name:"Python 3.13.0", version:"3.13.0", publisher:"Python Software Foundation"},
+      {name:"Zoom", version:"5.17.11", publisher:"Zoom Video Communications"},
+      {name:"Postman", version:"10.25.0", publisher:"Postman Inc."},
+      {name:"Git", version:"2.44.0", publisher:"The Git Development Community"},
+      {name:"Node.js", version:"20.11.0", publisher:"Node.js Foundation"},
+    ],
+    pip_packages: [
+      {name:"pip", version:"24.2"},
+      {name:"requests", version:"2.31.0"},
+      {name:"Flask", version:"3.0.2"},
+      {name:"numpy", version:"1.26.4"},
+      {name:"cryptography", version:"42.0.5"},
+      {name:"setuptools", version:"69.2.0"},
+    ]
+  };
+
+  sbom = {
+    bomFormat: "CycloneDX", specVersion: "1.4",
+    serialNumber: "urn:uuid:demo-20240622",
+    metadata: { timestamp: inventory.collected_at, component: { name: "PrajwalKumar", version: "10.0.26200" } },
+    components: [
+      ...inventory.windows_apps.map(a => ({ type:"application", name:a.name, version:a.version, publisher:a.publisher, purl:`pkg:generic/${a.name.toLowerCase().replace(/ /g,"-")}@${a.version}`, properties:[{name:"source",value:"windows-registry"}] })),
+      ...inventory.pip_packages.map(p => ({ type:"library", name:p.name, version:p.version, purl:`pkg:pypi/${p.name.toLowerCase()}@${p.version}`, properties:[{name:"source",value:"pip"}] }))
+    ]
+  };
+
+  grype = {
+    matches: [
+      { vulnerability:{ id:"GHSA-4xh5-x5gv-qwph", severity:"Medium", fix:{ versions:["25.3"], state:"fixed" }, description:"pip vulnerable to Remote Code Execution via malicious package" }, artifact:{ name:"pip", version:"24.2", type:"python" } },
+      { vulnerability:{ id:"GHSA-6vgw-5pg2-w6jp", severity:"Low",    fix:{ versions:["26.0"], state:"fixed" }, description:"pip incorrect handling of extra index URLs" }, artifact:{ name:"pip", version:"24.2", type:"python" } },
+      { vulnerability:{ id:"GHSA-jp4c-xjxw-mgf9", severity:"Medium", fix:{ versions:["26.1"], state:"fixed" }, description:"pip vulnerable to dependency confusion via malicious package index" }, artifact:{ name:"pip", version:"24.2", type:"python" } },
+      { vulnerability:{ id:"GHSA-58qw-9mgm-455v", severity:"Medium", fix:{ versions:["26.1"], state:"fixed" }, description:"pip TLS certificate verification bypass" }, artifact:{ name:"pip", version:"24.2", type:"python" } },
+    ]
+  };
+
+  render();
+}
+
+// ── Render ──
+function render() {
+  document.getElementById('upload-zone').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+  document.getElementById('footer').style.display = 'block';
+
+  renderSysInfo();
+  renderStats();
+  renderCVEs();
+  renderComponents();
+}
+
+function renderSysInfo() {
+  const s = inventory.system;
+  const collected = new Date(inventory.collected_at).toLocaleString();
+  document.getElementById('sysinfo').innerHTML = `
+    <div class="sysinfo-item"><label>Hostname</label><span>${s.hostname}</span></div>
+    <div class="sysinfo-item"><label>Operating System</label><span>${s.os} ${s.os_version}</span></div>
+    <div class="sysinfo-item"><label>Architecture</label><span>${s.architecture}</span></div>
+    <div class="sysinfo-item"><label>Python</label><span>${s.python}</span></div>
+    <div class="sysinfo-item"><label>Scan Time</label><span>${collected}</span></div>
+    <div class="sysinfo-item"><label>SBOM Format</label><span>CycloneDX 1.4</span></div>
+  `;
+}
+
+function renderStats() {
+  const matches = grype.matches || [];
+  const counts = { critical:0, high:0, medium:0, low:0 };
+  matches.forEach(m => { const s = (m.vulnerability?.severity||'').toLowerCase(); if(counts[s]!==undefined) counts[s]++; });
+  const total = sbom.components?.length || 0;
+  const hasCritical = counts.critical > 0;
+
+  document.getElementById('header-badge').innerHTML = hasCritical
+    ? `<span class="badge-risk">⚠ Critical Risk</span>`
+    : `<span class="badge-secure">✓ No Critical CVEs</span>`;
+
+  document.getElementById('stats').innerHTML = `
+    <div class="stat info"><div class="stat-val">${total}</div><div class="stat-label">Total Components</div></div>
+    <div class="stat ${matches.length>0?'medium':'safe'}"><div class="stat-val">${matches.length}</div><div class="stat-label">Vulnerabilities Found</div></div>
+    <div class="stat critical"><div class="stat-val">${counts.critical}</div><div class="stat-label">Critical</div></div>
+    <div class="stat high"><div class="stat-val">${counts.high}</div><div class="stat-label">High</div></div>
+    <div class="stat medium"><div class="stat-val">${counts.medium}</div><div class="stat-label">Medium</div></div>
+    <div class="stat safe"><div class="stat-val">${counts.low}</div><div class="stat-label">Low</div></div>
+  `;
+}
+
+function renderCVEs() {
+  const matches = grype.matches || [];
+  document.getElementById('cve-count').textContent = `${matches.length} finding${matches.length!==1?'s':''}`;
+
+  if (matches.length === 0) {
+    document.getElementById('cve-table-wrap').innerHTML = `
+      <div class="no-vuln"><span>✓</span>No vulnerabilities found in scanned components.</div>`;
+    return;
+  }
+
+  const order = { critical:0, high:1, medium:2, low:3 };
+  const sorted = [...matches].sort((a,b) =>
+    (order[(a.vulnerability?.severity||'').toLowerCase()]||9) - (order[(b.vulnerability?.severity||'').toLowerCase()]||9)
+  );
+
+  const rows = sorted.map(m => {
+    const v   = m.vulnerability || {};
+    const art = m.artifact || {};
+    const sev = (v.severity||'unknown').toLowerCase();
+    const fixVer = v.fix?.versions?.[0] || null;
+    const fixState = v.fix?.state || 'unknown';
+    const fixBadge = fixVer
+      ? `<span class="fix-badge fix-available">Fix: ${fixVer}</span>`
+      : `<span class="fix-badge fix-none">No fix yet</span>`;
+    return `<tr>
+      <td><span class="mono">${art.name||''}</span></td>
+      <td><span class="mono">${art.version||''}</span></td>
+      <td><a href="https://github.com/advisories/${v.id}" target="_blank" style="color:var(--accent);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:12px">${v.id||''}</a></td>
+      <td><span class="sev sev-${sev}">${v.severity||'?'}</span></td>
+      <td style="color:var(--muted);max-width:320px;font-size:12px">${v.description||''}</td>
+      <td>${fixBadge}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('cve-table-wrap').innerHTML = `
+    <table>
+      <thead><tr><th>Package</th><th>Version</th><th>Advisory ID</th><th>Severity</th><th>Description</th><th>Fix</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+function renderComponents() {
+  allComponents = sbom.components || [];
+  filterComponents();
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  ['all','pypi','win'].forEach(id => document.getElementById('f-'+id).classList.remove('active'));
+  document.getElementById('f-'+f).classList.add('active');
+  filterComponents();
+}
+
+function filterComponents() {
+  const q = document.getElementById('comp-search').value.toLowerCase();
+  let list = allComponents;
+
+  if (currentFilter === 'pypi') list = list.filter(c => c.properties?.some(p => p.value === 'pip'));
+  if (currentFilter === 'win')  list = list.filter(c => c.properties?.some(p => p.value === 'windows-registry'));
+  if (q) list = list.filter(c => c.name.toLowerCase().includes(q) || (c.version||'').toLowerCase().includes(q));
+
+  // mark which have CVEs
+  const vulnPkgs = new Set((grype.matches||[]).map(m => m.artifact?.name?.toLowerCase()));
+
+  const rows = list.map(c => {
+    const isPip = c.properties?.some(p => p.value === 'pip');
+    const hasVuln = vulnPkgs.has(c.name.toLowerCase());
+    const src = isPip
+      ? `<span class="source-pill source-pypi">pip</span>`
+      : `<span class="source-pill">windows app</span>`;
+    const vulnCell = hasVuln
+      ? `<span class="sev sev-medium" style="font-size:10px">CVE found</span>`
+      : `<span style="color:var(--muted);font-size:12px">—</span>`;
+    return `<tr>
+      <td><span class="mono">${c.name}</span></td>
+      <td><span class="mono" style="color:var(--muted)">${c.version||'—'}</span></td>
+      <td>${c.publisher||'<span style="color:var(--muted)">—</span>'}</td>
+      <td>${src}</td>
+      <td><span class="mono" style="color:var(--muted);font-size:11px">${c.purl||'—'}</span></td>
+      <td>${vulnCell}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('comp-table-wrap').innerHTML = `
+    <table>
+      <thead><tr><th>Name</th><th>Version</th><th>Publisher</th><th>Source</th><th>PURL</th><th>CVE Status</th></tr></thead>
+      <tbody>${rows || '<tr><td colspan="6" style="text-align:center;padding:32px;color:var(--muted)">No components match filter</td></tr>'}</tbody>
+    </table>`;
+}
+</script>
+</body>
+</html>

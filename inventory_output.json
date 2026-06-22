@@ -1,0 +1,973 @@
+{
+  "collected_at": "2026-06-22T06:25:56.040377+00:00",
+  "system": {
+    "hostname": "PrajwalKumar",
+    "os": "Windows",
+    "os_version": "10.0.26200",
+    "architecture": "AMD64",
+    "python": "3.13.0"
+  },
+  "windows_apps": [
+    {
+      "name": "7-Zip 26.01 (x64)",
+      "version": "26.01",
+      "publisher": "Igor Pavlov"
+    },
+    {
+      "name": "Application Verifier x64 External Package",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft"
+    },
+    {
+      "name": "Battery Monitor version 1.0",
+      "version": "1.0",
+      "publisher": "Prajwal Kumar"
+    },
+    {
+      "name": "Brave",
+      "version": "149.1.91.175",
+      "publisher": "Brave Software Inc"
+    },
+    {
+      "name": "ClickOnce Bootstrapper Package for Microsoft .NET Framework",
+      "version": "4.8.04739",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "ConEmu 230724.x64",
+      "version": "11.230.7240",
+      "publisher": "ConEmu-Maximus5"
+    },
+    {
+      "name": "Copilot",
+      "version": "149.0.4022.66",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "DiagnosticsHub_CollectionService",
+      "version": "16.11.36015",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Docker Desktop",
+      "version": "4.77.0",
+      "publisher": "Docker Inc."
+    },
+    {
+      "name": "DrSprinto 4.0.8",
+      "version": "4.0.8",
+      "publisher": "Sprinto"
+    },
+    {
+      "name": "Erlang OTP 28.4.2 (16.3.1)",
+      "version": "28.4.2",
+      "publisher": "Ericsson AB"
+    },
+    {
+      "name": "Git",
+      "version": "2.53.0.2",
+      "publisher": "The Git Development Community"
+    },
+    {
+      "name": "Google Chrome",
+      "version": "149.0.7827.116",
+      "publisher": "Google LLC"
+    },
+    {
+      "name": "Grype",
+      "version": "0.114.0",
+      "publisher": "Anchore Inc"
+    },
+    {
+      "name": "icecap_collection_neutral",
+      "version": "16.11.34930",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "icecap_collection_x64",
+      "version": "16.11.34930",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "icecap_collectionresources",
+      "version": "16.11.34827",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "icecap_collectionresourcesx64",
+      "version": "16.11.34827",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "InfraonAgent",
+      "version": "1.0.0",
+      "publisher": "Infraon Corp"
+    },
+    {
+      "name": "Inno Setup version 6.7.1",
+      "version": "6.7.1",
+      "publisher": "jrsoftware.org"
+    },
+    {
+      "name": "IP Messenger for Win",
+      "version": "5.8.1",
+      "publisher": "H.Shirouzu & FastCopy Lab, LLC."
+    },
+    {
+      "name": "Kits Configuration Installer",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft"
+    },
+    {
+      "name": "Lenovo Service Bridge",
+      "version": "5.0.2.21",
+      "publisher": "Lenovo"
+    },
+    {
+      "name": "Meld",
+      "version": "3.22.2",
+      "publisher": "Kai Willadsen"
+    },
+    {
+      "name": "Microsoft .NET Framework 4 Multi-Targeting Pack",
+      "version": "4.0.30319",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Framework 4.8.1 SDK",
+      "version": "4.8.09032",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Framework 4.8.1 Targeting Pack",
+      "version": "4.8.09032",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft 365 Apps for enterprise - en-us",
+      "version": "16.0.20026.20166",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Edge",
+      "version": "149.0.4022.80",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Edge WebView2 Runtime",
+      "version": "149.0.4022.80",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft OneDrive",
+      "version": "26.106.0603.0003",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Project Professional 2021 - en-us",
+      "version": "16.0.20026.20166",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft System CLR Types for SQL Server 2019 CTP2.2",
+      "version": "15.0.1200.24",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Teams Meeting Add-in for Microsoft Office",
+      "version": "1.26.11802",
+      "publisher": "Microsoft"
+    },
+    {
+      "name": "Microsoft Update Health Tools",
+      "version": "5.72.0.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Debug Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X86 Debug Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.50.35719",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ v14 Redistributable (x64) - 14.50.35719",
+      "version": "14.50.35719.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ v14 Redistributable (x86) - 14.50.35719",
+      "version": "14.50.35719.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual Studio Code (User)",
+      "version": "1.125.1",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual Studio Installer",
+      "version": "4.5.35.35368",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual Studio Setup Configuration",
+      "version": "4.5.6.38525",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual Studio Setup WMI Provider",
+      "version": "4.5.6.38525",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "MongoDB 8.2.6 2008R2Plus SSL (64 bit)",
+      "version": "8.2.6",
+      "publisher": "MongoDB Inc."
+    },
+    {
+      "name": "MongoDB Compass",
+      "version": "1.49.9",
+      "publisher": "MongoDB Inc"
+    },
+    {
+      "name": "MongoDB Compass Readonly",
+      "version": "1.49.4",
+      "publisher": "MongoDB Inc"
+    },
+    {
+      "name": "MSI Development Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Node.js",
+      "version": "24.14.1",
+      "publisher": "Node.js Foundation"
+    },
+    {
+      "name": "Notepad++ (64-bit x64)",
+      "version": "8.9.3",
+      "publisher": "Notepad++ Team"
+    },
+    {
+      "name": "Office 16 Click-to-Run Extensibility Component",
+      "version": "16.0.20026.20076",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Orca",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "PostgreSQL 18 ",
+      "version": "18.4-2",
+      "publisher": "PostgreSQL Global Development Group"
+    },
+    {
+      "name": "Python 3.11.0 (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Core Interpreter (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Development Libraries (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Documentation (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Executables (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 pip Bootstrap (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Standard Library (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Tcl/Tk Support (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Test Suite (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.11.0 Utility Scripts (64-bit)",
+      "version": "3.11.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Core Interpreter (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Development Libraries (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Documentation (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Executables (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 pip Bootstrap (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Standard Library (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Tcl/Tk Support (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.12.0 Test Suite (64-bit)",
+      "version": "3.12.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Core Interpreter (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Development Libraries (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Documentation (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Executables (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 pip Bootstrap (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Standard Library (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Tcl/Tk Support (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python 3.13.0 Test Suite (64-bit)",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "Python Launcher",
+      "version": "3.13.150.0",
+      "publisher": "Python Software Foundation"
+    },
+    {
+      "name": "RabbitMQ Server 4.2.5",
+      "version": "4.2.5",
+      "publisher": "VMware, Inc."
+    },
+    {
+      "name": "Redis on Windows",
+      "version": "5.0.14.1",
+      "publisher": "Poradowski.com"
+    },
+    {
+      "name": "Revo Uninstaller 2.6.8",
+      "version": "2.6.8",
+      "publisher": "VS Revo Group, Ltd."
+    },
+    {
+      "name": "SafeNet Authentication Client 10.9",
+      "version": "10.9.3283.0",
+      "publisher": "Thales"
+    },
+    {
+      "name": "Sophos AMSI Protection",
+      "version": "2026.1.0.517",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos AutoUpdate",
+      "version": "2026.1.0.1093",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Connect",
+      "version": "2.2.90.1104",
+      "publisher": "Sophos Ltd"
+    },
+    {
+      "name": "Sophos Diagnostic Utility",
+      "version": "2026.1.0.1091",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Endpoint Agent",
+      "version": "2026.1.0.1681.0",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Endpoint Defense",
+      "version": "2026.1.0.3422",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Endpoint Firewall",
+      "version": "2026.1.0.477",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Endpoint Self Help",
+      "version": "2026.1.0.876",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Exploit Prevention",
+      "version": "2026.1.0.1288",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos File Scanner",
+      "version": "2026.1.0.776",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Health",
+      "version": "2026.1.0.956",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Management Communications System",
+      "version": "2026.1.0.927",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos ML Engine",
+      "version": "2026.1.0.355",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Network Threat Protection",
+      "version": "2026.1.0.1477",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "Sophos Standalone Engine",
+      "version": "3.97.0.328",
+      "publisher": "Sophos Limited"
+    },
+    {
+      "name": "TortoiseGit 2.18.0.1 (64 bit)",
+      "version": "2.18.0.1",
+      "publisher": "TortoiseGit"
+    },
+    {
+      "name": "TypeScript SDK",
+      "version": "4.3.5.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "UltraViewer version 6.6.124",
+      "version": "6.6.124",
+      "publisher": "DucFabulous"
+    },
+    {
+      "name": "Universal CRT Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Universal CRT Headers Libraries and Sources",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Universal CRT Redistributable",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Universal CRT Tools x64",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Universal CRT Tools x86",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Universal General MIDI DLS Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Update for  (KB2504637)",
+      "version": "1",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vcpp_crt.redist.clickonce",
+      "version": "14.50.35719",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Visual Studio Professional 2019",
+      "version": "16.11.55",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "VLC media player",
+      "version": "3.0.23",
+      "publisher": "VideoLAN"
+    },
+    {
+      "name": "VS Immersive Activate Helper",
+      "version": "16.0.102.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "VS JIT Debugger",
+      "version": "16.0.102.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "VS Script Debugging Common",
+      "version": "16.0.102.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_clickoncebootstrappermsi",
+      "version": "16.10.31206",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_clickoncebootstrappermsires",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_clickoncesigntoolmsi",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_communitymsi",
+      "version": "16.11.34930",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_communitymsires",
+      "version": "16.10.31213",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_devenvmsi",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_filehandler_amd64",
+      "version": "16.11.31503",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_filehandler_x86",
+      "version": "16.11.31503",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_FileTracker_Singleton",
+      "version": "18.5.11709",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_Graphics_Singletonx64",
+      "version": "16.10.31213",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_Graphics_Singletonx86",
+      "version": "16.10.31213",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_minshellinteropmsi",
+      "version": "16.10.31306",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_minshellmsi",
+      "version": "16.11.34902",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_minshellmsires",
+      "version": "16.10.31303",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_SQLClickOnceBootstrappermsi",
+      "version": "16.10.31205",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "vs_tipsmsi",
+      "version": "16.0.28329",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinAppDeploy",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows App Certification Kit Native Components",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows App Certification Kit SupportedApiList x86",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows App Certification Kit x64",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Desktop Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Desktop Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows IoT Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows IoT Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Mobile Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Mobile Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK AddOn",
+      "version": "10.1.0.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK ARM Desktop Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Headers arm",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Headers arm64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Headers x64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Headers x86",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Libs arm",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Libs arm64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Libs x64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Libs x86",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Tools arm64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Tools x64",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Desktop Tools x86",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK DirectX x64 Remote",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK DirectX x86 Remote",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK EULA",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporations"
+    },
+    {
+      "name": "Windows SDK Facade Windows WinMD Versioned",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps DirectX x86 Remote",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps Headers",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps Libs",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps Metadata",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Apps Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK for Windows Store Managed Apps Libs",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Modern Non-Versioned Developer Tools",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Modern Versioned Developer Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Redistributables",
+      "version": "10.1.28000.1839",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows SDK Signing Tools",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Software Development Kit - Windows 10.0.19041.5609",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Subsystem for Linux",
+      "version": "2.7.3.0",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Team Extension SDK",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "Windows Team Extension SDK Contracts",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense Desktop - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense Desktop - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense IoT - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense IoT - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense Mobile - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense PPI - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense PPI - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense UAP - en-us",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinRT Intellisense UAP - Other Languages",
+      "version": "10.1.19041.5609",
+      "publisher": "Microsoft Corporation"
+    },
+    {
+      "name": "WinSCP 6.5.6",
+      "version": "6.5.6",
+      "publisher": "Martin Prikryl"
+    },
+    {
+      "name": "wkhtmltox 0.12.6-1",
+      "version": "unknown",
+      "publisher": ""
+    }
+  ],
+  "pip_packages": [
+    {
+      "name": "pip",
+      "version": "24.2"
+    }
+  ]
+}
